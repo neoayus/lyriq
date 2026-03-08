@@ -1,6 +1,7 @@
 # LyriQ
 
 A simple MVP app inspired by the Genius.com Android app that lets users create custom lyric cards.
+
 Live App : [lyriq@netlify](https://lyriqs.netlify.app/)
 
 
