@@ -1,6 +1,14 @@
 import { Import, Logo} from "./SVGs";
 
 export default function Card({data, ref}) {
+
+  // refactor: split the lyrics block in different bars on line brak.
+  const lyricsBlock = data.lyrics.split("\n").map((bar, index)=>(
+    <span className="bar" key ={index}>
+      {bar} <br/>
+    </span>
+  ))
+
   return (
     <div className="card" ref={ref}>
       {/* Conditionally Render this */}
@@ -16,7 +24,7 @@ export default function Card({data, ref}) {
             backgroundImage: `url(${data.cover})`,
           }}
         >
-          <p className="lyrics"> {data.lyrics} </p>
+          <div className="lyrics"> {lyricsBlock} </div>
         </div>
       )}
 

@@ -1,5 +1,5 @@
-// export default function Form({ song, artist, lyrics, setSong, setArtist, setLyrics, setImage }) {
 export default function Form({ data, setData }) {
+
   return (
     <form className="form">
       <fieldset>

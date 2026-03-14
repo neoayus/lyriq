@@ -82,27 +82,23 @@
   margin: 0; 
 }
 
-.background p.lyrics{
-  background-color: white;
+div.lyrics{
   text-align: left;
-
-  display: inline-block;
-  height: fit-content;
-  width: fit-content;
   margin: 0px 0px 12px 0px ; 
   padding: 4px 8px; 
-  
-  white-space: pre-line;
-
-
-  /* background-color: white; 
-
-  padding: 0 12px;
-  text-align: left;
-  border: 10px solid white ;
-  margin-bottom: 10px; */
 
   z-index: 1; 
+  
+}
+span.bar{
+  display: flex;
+  flex-direction: column;
+
+  background-color: white;
+  height: fit-content;
+  width: fit-content;
+  margin:3.5px;
+  padding: 2.5px 3.5px; 
 }
 
 /* delete */
