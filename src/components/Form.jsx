@@ -35,7 +35,7 @@ export default function Form({ data, setData }) {
         <label id="lyrics">
           Lyrics :
           <textarea
-            placeholder="here geos Lyrics..."
+            placeholder="here goes Lyrics..."
             rows="3"
             value={data.lyrics}
             onChange={(e) =>
